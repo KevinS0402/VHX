@@ -1,0 +1,77 @@
+#companyName {
+    font-size: 30px;
+    color:gold;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 35px;
+    padding-right: 35px;
+    vertical-align: top;
+    align-content: center;
+    border: solid;
+    border-color: darkgoldenrod;
+}
+
+.tab {
+    width: 40vw;
+    font-size: 18px;
+    border: solid;
+    background-color:antiquewhite;
+    color: black;
+    box-align: center;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: 0;
+    float: left;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 300px;
+    height: 30px;
+}
+
+img { 
+    size-adjust: 400px;
+    padding: 20px, 20px, 20px, 20px;
+}
+
+.bodyText {
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.bodyContainer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px, 20px, 20px, 20px;
+    border: solid;
+    border-color: azure;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+.fullPage {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titleTab {
+    display:flex;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
